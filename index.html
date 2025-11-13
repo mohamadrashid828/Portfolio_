@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Personal portfolio website showcasing projects, skills, and experience in computer science."
+    />
+    <title>Mohammed Ahmed | Computer Science Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-wrap">
+      <header class="site-header">
+        <div class="logo">Mohammed<span>.</span></div>
+        <nav class="site-nav" aria-label="Main navigation">
+          <button
+            class="nav-toggle"
+            aria-expanded="false"
+            aria-controls="nav-list"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <ul id="nav-list" class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <button class="mode-toggle" type="button" aria-label="Toggle theme">
+          <span class="mode-icon">☀️</span>
+        </button>
+      </header>
+
+      <main>
+        <section class="hero" id="hero">
+          <div class="hero-content">
+            <p class="hero-intro" id="hero-intro">Hi, I'm Mohammed</p>
+            <h1 id="hero-title">AI-Focused Computer Science Graduate & Educator</h1>
+            <p class="hero-copy" id="hero-copy">
+              Ranked first in my Computer Science cohort at Soran University, I
+              apply machine learning, cloud, and network engineering skills to
+              solve real problems. I love blending research with practical build
+              cycles—whether I'm guiding students, prototyping AI solutions, or
+              launching sustainability initiatives.
+            </p>
+            <div class="hero-actions">
+              <a class="button primary" href="#projects">View Projects</a>
+              <a class="button secondary" href="#contact">Let's Talk</a>
+            </div>
+            <div class="hero-metrics" id="hero-metrics">
+              <div>
+                <span class="metric-value">1st</span>
+                <span class="metric-label">Class rank at Soran University</span>
+              </div>
+              <div>
+                <span class="metric-value">3+</span>
+                <span class="metric-label">years leading tech communities</span>
+              </div>
+              <div>
+                <span class="metric-value">2</span>
+                <span class="metric-label">countries studied & worked in</span>
+              </div>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <figure class="hero-photo" id="hero-photo-wrapper" hidden>
+              <img id="hero-photo" alt="Portrait of Mohammed Ahmed" loading="lazy" />
+            </figure>
+            <div class="hero-card">
+              <div class="hero-card-title" id="hero-card-title">
+                Currently exploring
+              </div>
+              <ul id="hero-exploring">
+                <li>Applied machine learning for impact</li>
+                <li>Cloud-first network architectures</li>
+                <li>Tech education & mentorship</li>
+              </ul>
+            </div>
+            <div class="hero-orbit">
+              <div class="orbit-dot orbit-dot-1"></div>
+              <div class="orbit-dot orbit-dot-2"></div>
+              <div class="orbit-dot orbit-dot-3"></div>
+            </div>
+          </div>
+        </section>
+
+        <section id="about" class="panel about">
+          <div class="panel-heading">
+            <p class="eyebrow" id="about-eyebrow">About</p>
+            <h2 id="about-heading">Educator, builder, and community advocate</h2>
+            <p class="panel-summary" id="about-summary">
+              I'm a computer science graduate based in Erbil, Iraq, driven by the
+              belief that technology should open doors. From AI research and
+              cloud deployment to volunteer coaching, I invest in work that
+              uplifts learners and communities.
+            </p>
+          </div>
+          <div class="about-grid">
+            <article class="about-card">
+              <h3>Who I am</h3>
+              <p>
+                <span id="about-who" data-highlight="Erbil, Iraq"
+                  >Based in <span class="highlight">Erbil, Iraq</span>, I balance
+                  academic rigor with hands-on delivery. I lecture on networking
+                  and programming, while actively researching AI and building
+                  inclusive tech programs.</span
+                >
+              </p>
+            </article>
+            <article class="about-card">
+              <h3>What I bring</h3>
+              <ul id="about-bring">
+                <li>AI/ML experimentation grounded in real-world deployments</li>
+                <li>Cloud, data, and network experience across diverse teams</li>
+                <li>Leadership through teaching, mentoring, and volunteering</li>
+              </ul>
+            </article>
+            <article class="about-card">
+              <h3>Quick facts</h3>
+              <dl id="about-facts">
+                <div>
+                  <dt>Current role</dt>
+                  <dd>Lecturer, Zagros Institute</dd>
+                </div>
+                <div>
+                  <dt>Availability</dt>
+                  <dd>AI/ML, data, and cloud roles (open now)</dd>
+                </div>
+                <div>
+                  <dt>Interests</dt>
+                  <dd>Sustainability tech, cloud automation, CS education</dd>
+                </div>
+              </dl>
+            </article>
+          </div>
+        </section>
+
+        <section id="skills" class="panel skills">
+          <div class="panel-heading">
+            <p class="eyebrow" id="skills-eyebrow">Skills</p>
+            <h2 id="skills-heading">Technical range with depth in modern web</h2>
+          </div>
+          <div class="skills-grid" id="skills-grid">
+            <article class="skills-card">
+              <h3>Programming</h3>
+              <ul class="skill-tags">
+                <li>Dart</li>
+                <li>C#</li>
+                <li>Python</li>
+                <li>SQL</li>
+              </ul>
+            </article>
+            <article class="skills-card">
+              <h3>Frameworks & Platforms</h3>
+              <ul class="skill-tags">
+                <li>Flutter</li>
+                <li>Windows Forms</li>
+                <li>Google Cloud Platform</li>
+                <li>VPS Deployment</li>
+                <li>GitHub</li>
+              </ul>
+            </article>
+            <article class="skills-card">
+              <h3>Data & AI</h3>
+              <ul class="skill-tags">
+                <li>Machine Learning</li>
+                <li>Power BI</li>
+                <li>R</li>
+                <li>Data Analysis</li>
+                <li>Model Evaluation</li>
+              </ul>
+            </article>
+            <article class="skills-card">
+              <h3>Professional skills</h3>
+              <ul class="skill-tags">
+                <li>Networking & Systems</li>
+                <li>Mentorship</li>
+                <li>Community leadership</li>
+                <li>Communication</li>
+                <li>Time management</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <section id="experience" class="panel experience">
+          <div class="panel-heading">
+            <p class="eyebrow" id="experience-eyebrow">Experience</p>
+            <h2 id="experience-heading">Making impact through code</h2>
+          </div>
+          <div class="timeline" id="timeline">
+            <article class="timeline-item">
+              <span class="timeline-year">2025</span>
+              <div class="timeline-content">
+                <h3>Lecturer — Zagros Institute</h3>
+                <p>
+                  Teaching foundational computer networking and programming,
+                  helping undergraduate students connect theory with hands-on
+                  labs.
+                </p>
+                <ul>
+                  <li>Designed practical coursework that strengthens core CS skills</li>
+                  <li>Mentored students through project critiques and office hours</li>
+                  <li>Introduced collaborative lab sessions to boost peer learning</li>
+                </ul>
+              </div>
+            </article>
+            <article class="timeline-item">
+              <span class="timeline-year">2024</span>
+              <div class="timeline-content">
+                <h3>AI/ML Intern — Ovania Company</h3>
+                <p>
+                  Developed and analyzed machine learning models to support
+                  production use cases across the company.
+                </p>
+                <ul>
+                  <li>Explored model architectures and evaluation pipelines in Python</li>
+                  <li>Collaborated with engineers to operationalize ML workflows</li>
+                  <li>Documented findings that informed deployment decisions</li>
+                </ul>
+              </div>
+            </article>
+            <article class="timeline-item">
+              <span class="timeline-year">2024</span>
+              <div class="timeline-content">
+                <h3>Global Solutions Sustainability Challenge — IREX</h3>
+                <p>
+                  Led the Hospitium project to first place, showcasing sustainable
+                  tourism through cultural exchange and community partnerships.
+                </p>
+                <ul>
+                  <li>Coordinated research, prototyping, and presentation strategy</li>
+                  <li>Mapped impact metrics that highlighted community benefits</li>
+                  <li>Collaborated across international teams throughout the 8-week sprint</li>
+                </ul>
+              </div>
+            </article>
+            <article class="timeline-item">
+              <span class="timeline-year">2023</span>
+              <div class="timeline-content">
+                <h3>Volunteer Lead — Hasar Organization & CDC</h3>
+                <p>
+                  Empowered learners through climate-focused initiatives and
+                  university career programming.
+                </p>
+                <ul>
+                  <li>Coordinated branch operations and volunteer training</li>
+                  <li>Organized workshops that strengthened employability skills</li>
+                  <li>Built partnerships to expand access to technical education</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section id="projects" class="panel projects">
+          <div class="panel-heading">
+            <p class="eyebrow" id="projects-eyebrow">Projects</p>
+            <h2 id="projects-heading">Selected work</h2>
+            <p class="panel-summary" id="projects-summary">
+              A mix of solo and team projects that highlight my range and
+              curiosity. Each project shipped with attention to user feedback,
+              performance, and maintainable code.
+            </p>
+          </div>
+          <div class="projects-grid" id="projects-grid">
+            <article class="project-card">
+              <div class="project-media project-media-1"></div>
+              <div class="project-content">
+                <h3>Hospitium</h3>
+                <p>
+                  Award-winning sustainability platform from the Global Solutions
+                  Challenge that connects travelers with local communities to
+                  promote cultural exchange.
+                </p>
+                <ul class="project-tags">
+                  <li>Design research</li>
+                  <li>Impact strategy</li>
+                  <li>Community engagement</li>
+                </ul>
+                <a class="text-link" href="mailto:mohamadrashid828@gmail.com" aria-label="Discuss the Hospitium project">Discuss the project →</a>
+              </div>
+            </article>
+            <article class="project-card">
+              <div class="project-media project-media-2"></div>
+              <div class="project-content">
+                <h3>AI Model Evaluation Toolkit</h3>
+                <p>
+                  Internal toolkit created during my AI/ML internship to compare
+                  model performance and share deployment-ready insights with the
+                  engineering team.
+                </p>
+                <ul class="project-tags">
+                  <li>Python</li>
+                  <li>Machine learning</li>
+                  <li>Model monitoring</li>
+                </ul>
+                <a class="text-link" href="mailto:mohamadrashid828@gmail.com" aria-label="Request the AI Model Evaluation Toolkit details">Request details →</a>
+              </div>
+            </article>
+            <article class="project-card">
+              <div class="project-media project-media-3"></div>
+              <div class="project-content">
+                <h3>Tech Empowerment Workshops</h3>
+                <p>
+                  Volunteer-led training series for the Hasar Organization and
+                  Soran University CDC that prepared students for careers in tech
+                  and sustainability.
+                </p>
+                <ul class="project-tags">
+                  <li>Curriculum design</li>
+                  <li>Workshop facilitation</li>
+                  <li>Career coaching</li>
+                </ul>
+                <a class="text-link" href="mailto:mohamadrashid828@gmail.com" aria-label="Learn more about the Tech Empowerment Workshops">Learn more →</a>
+              </div>
+            </article>
+            <article class="project-card">
+              <div class="project-media project-media-4"></div>
+              <div class="project-content">
+                <h3>Cloud & Network Labs</h3>
+                <p>
+                  Hands-on lab environment used in lectures to introduce students
+                  to GCP services, network configuration, and deployment
+                  pipelines.
+                </p>
+                <ul class="project-tags">
+                  <li>Google Cloud</li>
+                  <li>Networking</li>
+                  <li>DevOps</li>
+                </ul>
+                <a class="text-link" href="mailto:mohamadrashid828@gmail.com" aria-label="View Cloud & Network Labs resources">View resources →</a>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="panel testimonials">
+          <div class="panel-heading">
+            <p class="eyebrow" id="highlights-eyebrow">Highlights</p>
+            <h2 id="highlights-heading">Recognized impact</h2>
+          </div>
+          <div class="testimonial-grid" id="highlights-grid">
+            <figure class="testimonial-card">
+              <blockquote>
+                First-place winner of the Global Solutions Sustainability
+                Challenge (IREX) for leading the Hospitium concept that advances
+                sustainable tourism.
+              </blockquote>
+              <figcaption>Global Solutions Program, 2024</figcaption>
+            </figure>
+            <figure class="testimonial-card">
+              <blockquote>
+                Graduated first in class from the Computer Science program at
+                Soran University after four years of high distinction.
+              </blockquote>
+              <figcaption>Soran University, 2025</figcaption>
+            </figure>
+            <figure class="testimonial-card">
+              <blockquote>
+                Selected for an exchange semester at Sapienza University of Rome
+                to collaborate on AI research and international coursework.
+              </blockquote>
+              <figcaption>Sapienza University, Spring 2025</figcaption>
+            </figure>
+          </div>
+        </section>
+
+        <section id="contact" class="panel contact">
+          <div class="panel-heading">
+            <p class="eyebrow" id="contact-eyebrow">Contact</p>
+            <h2 id="contact-heading">Let's build something together</h2>
+            <p class="panel-summary" id="contact-summary">
+              I'm currently open to internship and entry-level opportunities,
+              as well as collaborative projects and research initiatives.
+            </p>
+          </div>
+          <div class="contact-grid">
+            <div class="contact-card">
+              <h3>Email</h3>
+              <a id="contact-email" href="mailto:mohamadrashid828@gmail.com"
+                >mohamadrashid828@gmail.com</a
+              >
+            </div>
+            <div class="contact-card">
+              <h3>Phone</h3>
+              <a id="contact-phone" href="tel:+9647508285828">+964 750 828 5828</a>
+            </div>
+            <div class="contact-card">
+              <h3>LinkedIn</h3>
+              <div class="social-links">
+                <a
+                  id="contact-linkedin"
+                  href="https://www.linkedin.com/in/mohamad-rashid-ahmed"
+                  target="_blank"
+                  rel="noopener"
+                  >mohamad-rashid-ahmed</a
+                >
+              </div>
+            </div>
+            <div class="contact-card">
+              <h3>Resume</h3>
+              <a id="contact-resume" href="Mohammed_Ahmed.pdf" download>Download PDF</a>
+            </div>
+            <form class="contact-form">
+              <div class="form-row">
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" placeholder="Your name" />
+              </div>
+              <div class="form-row">
+                <label for="email">Email</label>
+                <input
+                  id="email"
+                  name="email"
+                  type="email"
+                  placeholder="you@example.com"
+                />
+              </div>
+              <div class="form-row">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="4"
+                  placeholder="How can we collaborate?"
+                ></textarea>
+              </div>
+              <button type="submit" class="button primary full-width">
+                Send message
+              </button>
+              <p class="form-note">
+                This form is a placeholder. Connect it to your preferred service
+                (e.g., Formspree, Netlify Forms) before launching.
+              </p>
+            </form>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <p>© <span id="year"></span> Mohammed Ahmed. Built with care and curiosity.</p>
+      </footer>
+    </div>
+
+    <div class="background-effects" aria-hidden="true">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="blob blob-3"></div>
+    </div>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
+
