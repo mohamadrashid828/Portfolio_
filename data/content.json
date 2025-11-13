@@ -1,0 +1,240 @@
+{
+  "hero": {
+    "intro": "Hi, I'm Mohammed",
+    "title": "AI-Focused Computer Science Graduate & Educator",
+    "copy": "Ranked first in my Computer Science cohort at Soran University, I apply machine learning, cloud, and network engineering skills to solve real problems. I love blending research with practical build cycles—whether I'm guiding students, prototyping AI solutions, or launching sustainability initiatives.",
+    "photo": {
+      "src": "images/profile.jpg",
+      "alt": "Portrait of Mohammed Ahmed",
+      "style": "",
+      "objectPosition": "center"
+    },
+    "metrics": [
+      { "value": "1st", "label": "Class rank at Soran University" },
+      { "value": "3+", "label": "years leading tech communities" },
+      { "value": "2", "label": "countries studied & worked in" }
+    ],
+    "cardTitle": "Currently exploring",
+    "exploring": [
+      "Applied machine learning for impact",
+      "Cloud-first network architectures",
+      "Tech education & mentorship"
+    ]
+  },
+  "about": {
+    "eyebrow": "About",
+    "heading": "Educator, builder, and community advocate",
+    "summary": "I'm a computer science graduate based in Erbil, Iraq, driven by the belief that technology should open doors. From AI research and cloud deployment to volunteer coaching, I invest in work that uplifts learners and communities.",
+    "who": "Based in Erbil, Iraq, I balance academic rigor with hands-on delivery. I lecture on networking and programming, while actively researching AI and building inclusive tech programs.",
+    "bring": [
+      "AI/ML experimentation grounded in real-world deployments",
+      "Cloud, data, and network experience across diverse teams",
+      "Leadership through teaching, mentoring, and volunteering"
+    ],
+    "facts": [
+      { "term": "Current role", "description": "Lecturer, Zagros Institute" },
+      { "term": "Availability", "description": "AI/ML, data, and cloud roles (open now)" },
+      { "term": "Interests", "description": "Sustainability tech, cloud automation, CS education" }
+    ]
+  },
+  "skills": {
+    "eyebrow": "Skills",
+    "heading": "Technical range with depth in modern web",
+    "groups": [
+      {
+        "title": "Programming",
+        "items": ["Dart", "C#", "Python", "SQL"]
+      },
+      {
+        "title": "Frameworks & Platforms",
+        "items": ["Flutter", "Windows Forms", "Google Cloud Platform", "VPS Deployment", "GitHub"]
+      },
+      {
+        "title": "Data & AI",
+        "items": ["Machine Learning", "Power BI", "R", "Data Analysis", "Model Evaluation"]
+      },
+      {
+        "title": "Professional skills",
+        "items": ["Networking & Systems", "Mentorship", "Community leadership", "Communication", "Time management"]
+      }
+    ]
+  },
+  "experience": {
+    "eyebrow": "Experience",
+    "heading": "Making impact through code",
+    "items": [
+      {
+        "year": "2025",
+        "title": "Lecturer — Zagros Institute",
+        "description": "Teaching foundational computer networking and programming, helping undergraduate students connect theory with hands-on labs.",
+        "bullets": [
+          "Designed practical coursework that strengthens core CS skills",
+          "Mentored students through project critiques and office hours",
+          "Introduced collaborative lab sessions to boost peer learning"
+        ]
+      },
+      {
+        "year": "2024",
+        "title": "AI/ML Intern — Ovania Company",
+        "description": "Developed and analyzed machine learning models to support production use cases across the company.",
+        "bullets": [
+          "Explored model architectures and evaluation pipelines in Python",
+          "Collaborated with engineers to operationalize ML workflows",
+          "Documented findings that informed deployment decisions"
+        ]
+      },
+      {
+        "year": "2024",
+        "title": "Global Solutions Sustainability Challenge — IREX",
+        "description": "Led the Hospitium project to first place, showcasing sustainable tourism through cultural exchange and community partnerships.",
+        "bullets": [
+          "Coordinated research, prototyping, and presentation strategy",
+          "Mapped impact metrics that highlighted community benefits",
+          "Collaborated across international teams throughout the 8-week sprint"
+        ]
+      },
+      {
+        "year": "2023",
+        "title": "Volunteer Lead — Hasar Organization & CDC",
+        "description": "Empowered learners through climate-focused initiatives and university career programming.",
+        "bullets": [
+          "Coordinated branch operations and volunteer training",
+          "Organized workshops that strengthened employability skills",
+          "Built partnerships to expand access to technical education"
+        ]
+      }
+    ]
+  },
+  "projects": {
+  "eyebrow": "Projects",
+  "heading": "Selected work",
+  "summary": "A mix of solo and team projects that highlight my range and curiosity. Each project shipped with attention to user feedback, performance, and maintainable code.",
+  "items": [
+    {
+      "title": "SchooliSoft — Digital School Management System",
+      "description": "An end-to-end school management platform that fully digitizes academic and administrative workflows. Includes a web dashboard for school managers and two mobile apps—one for students/parents and one for teachers/staff. Automates attendance, grading, scheduling, communication, and academic records.",
+      "tags": ["School management system", "EdTech", "Multi-platform apps"],
+      "image": {
+        "src": "images/schooli soft.jpg",
+        "alt": "SchooliSoft management dashboard"
+      },
+      "link": {
+        "href": "mailto:mohamadrashid828@gmail.com",
+        "label": "View resources →",
+        "ariaLabel": "View SchooliSoft resources"
+      },
+      "mediaClass": "project-media-5"
+    },
+    {
+      "title": "Car Parking Management POS",
+      "description": "A POS-based car parking management system designed to automate daily operations and monthly income tracking. The app allows parking operators to register vehicles, calculate fees, generate tickets, and monitor financial reports directly from a POS device. Built for speed, accuracy, and complete parking control without manual paperwork.",
+      "tags": ["POS system", "Parking management", "Billing automation"],
+      "image": {
+        "src": "images/parking-pos.jpg",
+        "alt": "Car parking management POS interface"
+      },
+      "link": {
+        "href": "mailto:mohamadrashid828@gmail.com",
+        "label": "Request details →",
+        "ariaLabel": "Request the Car Parking Management POS details"
+      },
+      "mediaClass": "project-media-parking"
+    },
+    {
+      "title": "Hospitium",
+      "description": "Award-winning sustainability platform from the Global Solutions Challenge that connects travelers with local communities to promote cultural exchange.",
+      "tags": ["Design research", "Impact strategy", "Community engagement"],
+      "image": {
+        "src": "images/hospitum.PNG",
+        "alt": "Hospitium concept preview"
+      },
+      "link": {
+        "href": "mailto:mohamadrashid828@gmail.com",
+        "label": "Discuss the project →",
+        "ariaLabel": "Discuss the Hospitium project"
+      },
+      "mediaClass": "project-media-1"
+    },
+    {
+      "title": "Attendance System Using Facial Recognition",
+      "description": "A real-time facial recognition attendance system built as my final-year project at Soran University. Designed to solve a specific challenge for QA staff, the system automates attendance logging by identifying students instantly and provides real-time monitoring across departments.",
+      "tags": ["Machine learning", "Computer vision", "Automation"],
+      "image": {
+        "src": "images/face recognitions.jpeg",
+        "alt": "Facial recognition attendance system interface"
+      },
+      "link": {
+        "href": "mailto:mohamadrashid828@gmail.com",
+        "label": "Request details →",
+        "ariaLabel": "Request the Attendance System project details"
+      },
+      "mediaClass": "project-media-2"
+    },
+    {
+      "title": "Molida Management POS",
+      "description": "A POS-based automation and billing system built for private generator owners. The system automates monthly invoices, tracks income, manages subscribers, and eliminates manual record-keeping. Deployed for four clients, each using the application through a monthly subscription model.",
+      "tags": ["POS systems", "Business automation", "Billing workflows"],
+      "image": {
+        "src": "images/molida generator.jpeg",
+        "alt": "Molida POS management interface"
+      },
+      "link": {
+        "href": "mailto:mohamadrashid828@gmail.com",
+        "label": "Request details →",
+        "ariaLabel": "Request the Molida POS details"
+      },
+      "mediaClass": "project-media-3"
+    },
+    {
+      "title": "Practice & Learning App",
+      "description": "An English-learning mobile application built around a story-based method. Users read short narratives and unlock sentences dynamically generated from target vocabulary, enabling natural and context-rich language acquisition.",
+      "tags": ["EdTech", "Language learning", "Mobile application"],
+      "image": {
+        "src": "images/practics and lernign.jpg",
+        "alt": "English learning app interface"
+      },
+      "link": {
+        "href": "mailto:mohamadrashid828@gmail.com",
+        "label": "Learn more →",
+        "ariaLabel": "Learn more about the Practice & Learning App"
+      },
+      "mediaClass": "project-media-4"
+    }
+    
+  ]
+},
+  "highlights": {
+    "eyebrow": "Highlights",
+    "heading": "Recognized impact",
+    "items": [
+      {
+        "quote": "First-place winner of the Global Solutions Sustainability Challenge (IREX) for leading the Hospitium concept that advances sustainable tourism.",
+        "caption": "Global Solutions Program, 2024"
+      },
+      {
+        "quote": "Graduated first in class from the Computer Science program at Soran University after four years of high distinction.",
+        "caption": "Soran University, 2025"
+      },
+      {
+        "quote": "Selected for an exchange semester at Sapienza University of Rome to collaborate on AI research and international coursework.",
+        "caption": "Sapienza University, Spring 2025"
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "heading": "Let's build something together",
+    "summary": "I'm currently open to internship and entry-level opportunities, as well as collaborative projects and research initiatives.",
+    "email": "mohamadrashid828@gmail.com",
+    "phone": "+964 750 828 5828",
+    "linkedin": {
+      "url": "https://www.linkedin.com/in/mohamad-rashid-ahmed",
+      "label": "mohamad-rashid-ahmed"
+    },
+    "resume": {
+      "file": "Mohammed_Ahmed.pdf",
+      "label": "Download PDF"
+    }
+  }
+}
+
