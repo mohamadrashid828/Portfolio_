@@ -130,7 +130,7 @@
       "description": "A POS-based car parking management system designed to automate daily operations and monthly income tracking. The app allows parking operators to register vehicles, calculate fees, generate tickets, and monitor financial reports directly from a POS device. Built for speed, accuracy, and complete parking control without manual paperwork.",
       "tags": ["POS system", "Parking management", "Billing automation"],
       "image": {
-        "src": "images/parking-pos.jpg",
+        "src": "images/park.jpeg",
         "alt": "Car parking management POS interface"
       },
       "link": {
